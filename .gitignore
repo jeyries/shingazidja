@@ -1,0 +1,9 @@
+.DS_Store
+
+/archive/
+/temp/
+/cordova/
+/keystore/
+/releases/
+/.idea/
+

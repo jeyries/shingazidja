@@ -1,0 +1,153 @@
+/*  */
+#content {
+vertical-align:top;
+background-color:#FFE3AC ;
+}
+
+#barre {
+vertical-align:top;
+background-color:#FFE3AC ;
+}
+
+#menu {
+vertical-align:top;
+background-color:#FFE3AC ;
+}
+
+#menuAdresseMail {color:#A01400; width:100% ; text-align:center ; font-family:Geneva, Arial; font-size:11px; font-weight:bold;}
+
+
+/* menu */
+#menuLabel {background-color:#A01400; width:100% ; color:#FAB48C; text-align:left; font-family:Geneva, Arial; font-size:14px; font-weight:bold;}
+.menuTitle {cursor:hand ; color:#A01400 ; text-align:left; font-family:Geneva, Arial; font-size:13px; font-weight:bold;}
+#siteTitle {color:#A01400; width:100% ; background-color:#FFE3AC; text-align:center; font-family:Geneva, Arial; font-size:20px; font-weight:bold; }
+#siteSubTitle {width:100% ; background-color:#FFE3AC; text-align:center; font-family:Geneva, Arial; font-size:16px; font-weight:bold; }
+
+
+a.menuItem { color:#A01400 ; }
+a.menuItem:link:hover, a:visited:hover { background-color:#A01400; color:#FAB48C; }
+
+#menuLegende{text-align:center;font-family:Geneva, Arial; font-size:11px; color:blue;}
+
+
+/* quizz */
+#quiz{border: double medium red; padding:12px;text-align:center;width:auto}
+#quiz img{cursor:move}
+#t1,h3{margin:12px auto;text-align:left}
+#t1 th{background-color:gainsboro}
+#resultat{margin:0 0 0 50px; font-size:13px;}
+
+/* quizz mots-image / mot-mot / mot-vignette */
+#quiz2{margin:0 0 0 12px; width:auto;font-family:Geneva, Arial; font-size:13px;}
+.t2 {font-size:13px;}
+.t2 li{display:inline; background-color:#ffc; padding:0 5px; margin:0 0 0 3px; cursor:move; border: 1px solid black;}
+
+
+#rcpDIV{ margin:12px auto; text-align:left; position:relative; width:650px;}
+ /* coordonnées des emplacements reponse + couleur */
+#rcpDIV div{position:absolute;width:10px;height:10px;background-color:#BBB;cursor:crosshair; 
+font-family:Geneva, Arial;font-size:11px;padding:0 3px}
+
+#enonce{text-align:left;width:auto;font-family:Geneva, Arial; font-size:11px;}
+
+/* quizz questions*/
+/* #quizquestion{text-align:center;width:auto;font-family:Geneva, Arial; font-size:1em;} */
+.question {font-size:13px; text-align:left; padding:0 20px; }
+.reponse {font-size:13px; text-align:left; padding:0 80px; }
+.resultOK {color:green ; text-align:left;width:auto;font-family:Geneva, Arial; font-size:13px;}
+.resultNOK {color:red ; text-align:left;width:auto;font-family:Geneva, Arial; font-size:13px;}
+.result {text-align:left;width:auto;font-family:Geneva, Arial; font-size:13px;}
+
+/* quizz mots croises */
+#legende{text-align:center;width:20px;font-family:Geneva, Arial; font-size:11px; color:blue;}
+#def_label{text-align:left;width:300px;font-family:Geneva, Arial; font-size:13px; padding:0 20px;  }
+#def_content{text-align:left;width:300px;font-family:Geneva, Arial; font-size:11px; padding:0 80px;  }
+
+/* cours */
+#cours{margin:0 0 0 12px; width:auto;font-family:Geneva, Arial; font-size:13px;}
+#titre {margin:0 0 0 12px; text-align:left;font-size:18px; font-weight:bold; }
+#intro {font-size:12px;}
+#sousTitre {font-size:14px; font-weight:bold; color:red ; }
+#sousTitre 2{font-size:14px; font-weight:bold; }
+#exemple {font-size:13px; font-weight:bold;  }
+#exceptionTitre {font-size:13px; color:green ; font-weight:bold; }
+
+/* table gauche + droite */
+/*#gdeTableExemple {width:100%; border: 0px ; } */
+
+/* table gauche : tableau definition cours */
+#tableDef {border: 2px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style:outset ;
+background-color: #FFCC99; margin:6px ; width:280; font-size:13px; text-align:center;  }
+#tdDef {border: 2px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style:outset ;
+background-color: #FFCC99; margin:6px ; width:280; font-size:13px; text-align:center; font-weight:bold;  }
+
+
+
+/* 2 tables dans la table "tableDef" */
+#tableConjug {border: 0px; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style:outset ;
+background-color: #FFCC99; width:120; font-size:13px; text-align:center;  }
+#tdhead { height:50px ; font-weight:bold; } /* nom du verbe */
+#tdhead2 { border: 1px solid #660000; background-color: #CCCCCC;}   /* temps de conjugaison */
+
+#tableConjugEx {border: 0px; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style:outset ;
+width:120; font-size:13px; text-align:center;  }
+
+/* table droite : tableau exemples */
+#tableExemple {border: 1px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style: dashed ;
+margin:6px ; width:280; font-size:13px; text-align:center; }
+#tdExemple {border: 1px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style: dashed ;
+margin:6px ; width:280; font-size:13px; text-align:center; }
+
+
+
+#tableDef2{border: 2px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style:outset ;
+background-color: #FFCC99; margin:6px ; width:180; font-size:13px; text-align:center;  }
+#tddef2 { border: 1px solid #660000; vertical-align:top; width:50%;}
+#tableExemple2{border: 1px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; 
+margin:6px ; width:420; font-size:13px; text-align:center; }
+#tdExemple2 {border: 1px solid #660000; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style: dashed ;
+margin:6px ; width:33%; font-size:13px; text-align:center; }
+#tdExempleVocab2{ border: 1px solid #660000; background-color: #CCCCCC; width:33%; border-style: dashed ;}  
+
+
+
+
+
+#tdcours { border: 1px solid #660000; vertical-align:top;}
+#tdmotscroisesTexte {border: 1px solid grey; vertical-align:top; text-align:left ;}
+#tdmotscroisesGrille {border: 0px; vertical-align:top; text-align:center ;}
+
+#exshin {color:blue;}
+#exfr {font-family:Geneva, Arial;}
+#exen {font-style:italic; font-family:Geneva, Arial;}
+
+
+#exception {color:green ; font-weight:bold; }
+#important { font-weight:bold; }
+#imp2 { color:#660033 ; font-weight:bold; }
+#negation {color:#660033 ; font-weight:bold; }
+#part {color:#663366 ; font-weight:bold; }
+
+/* livre d'or */
+#tableLivredor{background-color: #CCCCCC; border: 2px solid black; border-collapse:collapse ; border-style:outset ; width:80%; font-size:13px; }
+#tableComment{border: 2px solid black; border-collapse:collapse ; border-style:outset ; width:100%; font-size:13px; }
+
+#nom{text-align:left; font-family:Geneva, Arial; font-size:14px; font-weight:bold; }
+#tdnom{background-color: #FFCC99; text-align:left; font-family:Geneva, Arial; font-size:13px;}
+#tdcomment{ border: 1px solid black; text-align:left; font-family:Geneva, Arial; font-size:13px;  }
+
+
+#tdLivre{text-align:left;font-family:Geneva, Arial; font-size:13px; width:100%}
+#tdLivreCenter{text-align:center;font-family:Geneva, Arial; font-size:13px; width:100%}
+
+
+/* Vocabulaire */ 
+#tableVocab {border: 0px; border-collapse:collapse ; padding:0px; border-spacing:0px; border-style:outset ;
+background-color: #FFCC99; font-size:13px; text-align:center; }
+
+#trVocab {text-align:center; }
+#trVocab2 {background-color: #FFE3AC; text-align:center; }
+
+#tdVocab { vertical-align:top; text-align:left; font-size:13px; width:275;}
+#tdHeadVocab { border: 1px solid #660000; background-color: #CCCCCC; font-size:13px;  width:275; }  
+#tdFormVocab { border: 1px solid #660000; background-color: #CCCCCC; font-size:13px;  width:385; }  
