@@ -20,3 +20,19 @@ Build Android app
     cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git
     cordova build
     cordova emulate android
+
+
+Test web server
+
+    cd www
+    python3 -m http.server
+    open http://localhost:8000
+
+
+Push to Github pages
+
+    poetry install --no-root
+    poetry shell
+    ghp-import webapp
+    git push origin gh-pages
+
